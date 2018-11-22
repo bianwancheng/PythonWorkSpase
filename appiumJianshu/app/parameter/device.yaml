@@ -1,0 +1,14 @@
+# 获取driver时需要的手动配置的参数
+# 设备系统
+platformName: Android
+# 是否支持unicode的键盘。如果需要输入中文，要设置为“true”
+unicodeKeyboard: True
+# Appium服务器待appium客户端发送新消息的时间。默认为60秒
+newCommandTimeout: 60
+# True:不重新安装APP，False:重新安装app
+noReset: True
+# # 是否在测试结束后将键盘重轩为系统默认的输入法。
+resetKeyboard: True
+# 测试的apk路径  注意反斜杠/
+appPath: D:/PythonWorkSpase/appiumJianshu/app/com.ximalaya.ting.android.apk
+
