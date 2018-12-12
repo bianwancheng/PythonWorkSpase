@@ -24,4 +24,5 @@ with open('D:\PythonWorkSpase\\appiumJianshu\\app\parameter\getDevicePara.yaml',
     print(type(deviceYaml))
     f.close()
 
+print('git is good')
 print(deviceYaml)
